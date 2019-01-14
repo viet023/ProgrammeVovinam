@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="479" height="185" overflow="visible">
+  <switch>
+    <g>
+      <path fill="#0854AF" stroke="#77D7ED" stroke-width="4" d="M192 46v7c2 3 25 2 25 2l-11-10-14 1z" />
+      <path fill="#0854AF" stroke="#77D7ED" stroke-width="4" d="M10 23s119 32 234 32C358 55 458 4 462 2s13 39 1 48-81 49-216 49C111 99 14 77 7 70c-7-8-7-38 3-47z" />
+      <path fill="#0854AF" stroke="#77D7ED" stroke-width="4" d="M252 126s-22-6-28-21 59-30 59-30l-7 31-24 20z" />
+      <path fill="#0854AF" stroke="#77D7ED" stroke-width="4" d="M195 103s31 21 36 19l58-37-45-34-51 39 2 13z" />
+      <path fill="#0854AF" stroke="#77D7ED" stroke-width="4" d="M23 152S148 76 224 45c75-30 30 29 30 29s-78 39-110 58-82 50-88 51-33-31-33-31z" />
+      <path fill="#0854AF" stroke="#77D7ED" stroke-width="4" d="M256 27s-5-2-14 9c-9 10 15 8 15 8l-1-17z" />
+      <path fill="#0854AF" stroke="#77D7ED" stroke-width="4" d="M232 29s95 49 128 60 114 47 117 56-28 30-28 30-24-21-54-34L283 93c-29-14-90-48-90-48l39-16z" />
+      <path fill="#0854AF" stroke="#77D7ED" stroke-width="4" d="M256 28s-2 92-5 97c-2 4 43-13 44-19 1-5 7-50 2-55s-37-26-41-23z" />
+      <path fill="#FFED0D" stroke="#FFED0D" stroke-width="2" d="M44 138l-6 4s30 31 36 34l6-4-36-34z" />
+    </g>
+  </switch>
+</svg>

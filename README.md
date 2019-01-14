@@ -1,2 +1,0 @@
-# ProgrammeVovinam
-Created with CodeSandbox
