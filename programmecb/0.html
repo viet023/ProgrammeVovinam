@@ -12,12 +12,12 @@
     <!-- The Modal -->
     <article>
       <h3>Positions (TẤN)</h3>
-      <ul>
+      <ul id="position">
         <li id="laptan">Lập tấn</li>
-        <li>Liên Hoa Tấn</li>
-        <li>Đinh Tấn</li>
-        <li>Trung Bình Tấn</li>
-        <li>Chảo mã Tấn</li>
+        <li id="lienhoatan">Liên Hoa Tấn</li>
+        <li id="dinhtan">Đinh Tấn</li>
+        <li id="trungbinhtan">Trung Bình Tấn</li>
+        <li id="chaomatan">Chảo mã Tấn</li>
       </ul>
     </article>
 
@@ -209,23 +209,78 @@
         </tbody>
       </table>
     </article>
-    <div id="modalLapTan" class="modal">
-      <!-- Modal content -->
+
+    <!-- Modal dinh tan -->
+    <div id="modallaptan" class="modal">
       <div class="modal-content">
         <span class="close">&times;</span>
         <h1>Lap tan</h1>
-        <img class="position-img" src="../src/svg/laptan.svg" />
+        <img class="position-img" src="position/laptan.svg" />
         <p>Debout talons joints pointes des pieds écartés</p>
+      </div>
+    </div>    
+
+    <!-- Modal lap tan -->
+    <div id="modallienhoatan" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>Liên Hoa Tấn</h1>
+        <img class="position-img" src="position/lienhoatan.svg" />
+        <p>Position de la fleur de lotus</p>
+        <p>Les pieds sont joints et les genoux fléchis.</p>
       </div>
     </div>
 
-    <div id="modalLienHoaTan" class="modal">
-      <!-- Modal content -->
+    <!-- Modal dinh tan -->
+    <div id="modaldinhtan" class="modal">
       <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Liên Hoa Tấn coucou</p>
+        <h1>Đinh tấn</h1>
+        <img class="position-img" src="position/dinhtan.svg" />
+        <p>Position de combat</p>
+        <p>Répartition du poids: 70% à l'avant, 30% à l'arrière.</p>
+        <ul class="inModal">
+          <strong>Notes</strong>
+            <li>Les principaux éléments sont:</li>
+            <li>- Ne jamais plier la jambe arrière</li>
+            <li>- Le talon arrière est collé au sol</li>
+            <li>- Le corps reste toujours droit</li>
+        </ul>
       </div>
     </div>
+
+    <!-- Modal trung binh tan -->
+    <div id="modaltrungbinhtan" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>Trung bình tấn</h1>
+        <img class="position-img" src="position/trungbinhtan.svg" />
+        <p>Position forte du cavalier</p>
+       <p> Répartition du poids: 50% à gauche, 50% à droite.</p>
+       <ul class="inModal"> 
+          <strong>Notes</strong>
+        <li> Les principaux éléments sont:</li>
+        <li> - Les pieds sont parallèles</li>
+        <li> - Les genoux sont vers l'extérieur</li>
+        <li> - L'écart égale 2 fois la largeur des épaules</li>
+        <li> - Les fesses sont rentrées, le dos droit</li>
+       </ul>
+      </div>
+    </div>
+
+    <!-- Modal chao ma tan -->
+    <div id="modalchaomatan" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1>Chảo mã Tấn</h1>
+          <img class="position-img" src="position/chaomatan.svg" />
+          <p>Position du Chat (de défense)</p>
+         <p> Répartition du poids: 85% jambe arrière, 15% jambe avant</p>
+        </div>
+      </div>
+  
+
+    
   </body>
   <script src="script.js"></script>
 </html>
