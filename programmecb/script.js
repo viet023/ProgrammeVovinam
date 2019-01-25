@@ -5,8 +5,9 @@ function OpenModalPosition(e) {
   var clickedItem = e.target.id;
     // Get the modal
     var modal = document.querySelector("#modal"+e.target.id);
+    
     // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+    var span = document.getElementById("close"+e.target.id);
 
     modal.style.display = "block";
 
