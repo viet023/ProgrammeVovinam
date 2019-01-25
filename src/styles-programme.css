@@ -63,6 +63,28 @@ li {
   margin: 4px 2px;
 }
 
+ul.inModal{
+  margin-top: 30px;
+  list-style-type: disc;
+  background-color: #ececec;
+  padding: 10px 20px;
+}
+
+.inModal li {
+  text-align: center;
+  background-color: inherit;
+  border: none;
+  color: rgb(37, 37, 37);
+  padding: 0px;
+  font-size: inherit;
+  margin: inherit;
+}
+
+.inModal li:hover {
+  background-color: inherit;
+  cursor: inherit;
+}
+
 li:hover {
   background-color: #d1d1d1;
   cursor: pointer;
